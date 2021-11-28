@@ -58,7 +58,7 @@ for example:
 
 npm run start, 打印出来的环境变量
 
-```json
+```
 /Users/peer/Desktop/temp/link/node_modules/.bin:
 /Users/peer/Desktop/temp/node_modules/.bin:
 /Users/peer/Desktop/node_modules/.bin:
@@ -81,7 +81,7 @@ npx installed-package
 
 npx 会去查看 <command>是否在$PATH中存在, npx运行添加的环境变量, 同npm run相似
 
-```json
+```
 /Users/peer/Desktop/temp/npx/node_modules/.bin:
 /Users/peer/Desktop/temp/node_modules/.bin:
 /Users/peer/Desktop/node_modules/.bin:
