@@ -26,7 +26,8 @@ Use cases:
 - Just want to test some commands.
 - Sometime, you want to have a script command (generate, convert something, ...) in `package.json` to execute something without installing these packages as project's dependencies.
 
-1. package.json 中定义的bin, 安装package后会在./node_modules/.bin 生成动态链接. 本地安装会在当前文件夹, 全局安装会在NODE_PATH中.
+
+package.json 中定义的bin, 安装package后会在./node_modules/.bin 生成动态链接. 本地安装会在当前文件夹, 全局安装会在NODE_PATH中.
 
 如果要执行安装的script, 有两种方式:
 
