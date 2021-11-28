@@ -60,14 +60,14 @@ for example:
 npm run start, 打印出来的环境变量
 
 ```
-/Users/peer/Desktop/temp/link/node_modules/.bin:
-/Users/peer/Desktop/temp/node_modules/.bin:
-/Users/peer/Desktop/node_modules/.bin:
-/Users/peer/node_modules/.bin:
+~/Desktop/temp/link/node_modules/.bin:
+~/Desktop/temp/node_modules/.bin:
+~/Desktop/node_modules/.bin:
+~/Desktop/node_modules/.bin:
 /Users/node_modules/.bin:
 /node_modules/.bin:
-/Users/peer/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:
-/Users/peer/.nvm/versions/node/v16.13.0/bin:
+~/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:
+~/.nvm/versions/node/v16.13.0/bin:
 ```
 
 可以看到一级一级的将/node_modules/.bin加入到环境变量中
@@ -83,15 +83,15 @@ npx installed-package
 npx 会去查看 <command>是否在$PATH中存在, npx运行添加的环境变量, 同npm run相似
 
 ```
-/Users/peer/Desktop/temp/npx/node_modules/.bin:
-/Users/peer/Desktop/temp/node_modules/.bin:
-/Users/peer/Desktop/node_modules/.bin:
-/Users/peer/node_modules/.bin:
+~/Desktop/temp/npx/node_modules/.bin:
+~/Desktop/temp/node_modules/.bin:
+~/Desktop/node_modules/.bin:
+~/node_modules/.bin:
 /Users/node_modules/.bin:
 /node_modules/.bin:
-/Users/peer/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:
-/Users/peer/Desktop/temp/npx/node_modules/.bin:
-/Users/peer/.nvm/versions/node/v16.13.0/bin:
+~/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:
+~/Desktop/temp/npx/node_modules/.bin:
+~/.nvm/versions/node/v16.13.0/bin:
 ```
 
 mkdir npx
