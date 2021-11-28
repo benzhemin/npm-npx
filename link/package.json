@@ -1,0 +1,10 @@
+{
+  "name": "hello",
+  "bin": {
+    "hello1": "hello",
+    "env": "env"
+  },
+  "scripts": {
+    "start": "/bin/bash -c 'echo $PATH'"
+  }
+}
