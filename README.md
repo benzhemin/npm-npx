@@ -75,7 +75,7 @@ npm run start, 打印出来的环境变量
 
 npx run locally installed package
 
-```json
+```
 npx installed-package
 ```
 
