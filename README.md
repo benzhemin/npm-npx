@@ -1,6 +1,7 @@
 # npm-npx
 
-## [Introducing npx: an npm package runner](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner)
+#### [Introducing npx: an npm package runner](https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner)
+#### [Difference between npx and npm](https://stackoverflow.com/questions/50605219/difference-between-npx-and-npm)
 
 ### `NPM` - *Manages* packages *but* doesn't make life easy *executing* any.`NPX` - A tool for *executing* Node packages.
 
